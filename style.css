@@ -2,7 +2,21 @@
   max-width: 300px;
 }
 
-//*
+.abstract{
+  font-family: "Times New Roman"; 
+  color: #C68B23;
+}
+body{
+  font-family: "Times New Roman"; 
+}
+
+a{
+  font-family: "Times New Roman"; 
+}
+
+
+
+/*
 .as-box > h2 {
     padding: 15px 40px;
     font-size: 1.3rem;

@@ -20,3 +20,16 @@ function w3_open() {
 function w3_close() {
     document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
 }
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
