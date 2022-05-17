@@ -15,6 +15,10 @@ a{
   /*font-family: "Times New Roman"; */
 }
 
+.photo{
+  background-image: url(../img/LIlogo.png);
+  max-width: 80px;"
+}
 /*
 .as-box > h2 {
     padding: 15px 40px;
